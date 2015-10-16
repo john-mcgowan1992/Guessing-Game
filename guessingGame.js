@@ -26,10 +26,7 @@ function setGuess() {
 
 //define distance from target
 function guessHelp() {
-	if (targetDistance === 0) {
-		return "You guessed the right number!";
-	}
-	else if (targetDistance > 40 || targetDistance < -40) {
+	if (targetDistance > 40 || targetDistance < -40) {
 		return "very cold. "
 	}
 	else if (targetDistance > 25 || targetDistance < -25) {
