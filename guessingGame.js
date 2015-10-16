@@ -41,7 +41,7 @@ function guessHelp() {
 	else if (targetDistance > 8 || targetDistance < -8) {
 		return "hot.";
 	}
-	else if (targetDistance > 1 || targetDistance < - 1) {
+	else if (targetDistance > 0 || targetDistance < 0) {
 		return "scalding hot!";
 	}
 	else {
