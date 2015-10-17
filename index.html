@@ -1,19 +1,26 @@
 <link href="style.css" rel="stylesheet">
 <!DOCTYPE html>
 <head>
-
 </head>
 <body>
 
 	<div class="wrapper">
 		<h1>Guessing Game</h1>
 		<form>
-			<input type:"text" placeholder="Guess 1-100">
+			<input type:"text" id="guessInput" placeholder="Guess 1-100">
 	</form>
-		<button  class="button">Take a guess!</button>
-		<button  class="button">Try Again</button>
+		<button  id="guessButton" onclick="setGuess()">Guess!</button>
+		<button  id="Redobutton">New Game</button>
+		<button id="showAnswer">Hint</button>
 	</div>
-	
-	
+	<div id="textBox">
+	</div>
+	<div id="guessList">
+		<h2>Your Guesses:</h2>
+
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="guessingGame.js" type="text/javascript"></script>
 
 </body>
